@@ -4,20 +4,22 @@ namespace git_workshop_app
 {
     class Program
     {
+
+        // I will try to create conflicts now
+
         static void Main(string[] args)
         {
-            // we will test if we still have conflicts
-            var squareShape = new Square();
-            squareShape.CalculateSquareArea();
+            var squareObj = new Square();
+            squareObj.CalculateSquareArea();
 
-            var rectangle = new Rectangle();
-            rectangle.CalculateRectArea();
+            var rectangleObj = new Rectangle();
+            rectangleObj.CalculateRectArea();
+          
+            var triangleObj = new Triangle();
+            triangleObj.CalculateTriangleArea();
 
-            var triangleShape = new Triangle();
-            triangleShape.CalculateTriangleArea();
-
-            var circle = new Circle();
-            circle.CalculateCircleArea();
+            var circleObj = new Circle();
+            circleObj.CalculateCircleArea();
 
             Console.ReadKey();
         }
