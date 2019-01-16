@@ -14,7 +14,7 @@ namespace git_workshop_app
 
             var rectangleObj = new Rectangle();
             rectangleObj.CalculateRectArea();
-
+          
             var triangleObj = new Triangle();
             triangleObj.CalculateTriangleArea();
 
