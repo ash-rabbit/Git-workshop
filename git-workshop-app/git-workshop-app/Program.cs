@@ -6,14 +6,15 @@ namespace git_workshop_app
     {
         static void Main(string[] args)
         {
-            var square = new Square();
-            square.CalculateSquareArea();
+            // we will test if we still have conflicts
+            var squareShape = new Square();
+            squareShape.CalculateSquareArea();
 
             var rectangle = new Rectangle();
             rectangle.CalculateRectArea();
 
-            var triangle = new Triangle();
-            triangle.CalculateTriangleArea();
+            var triangleShape = new Triangle();
+            triangleShape.CalculateTriangleArea();
 
             var circle = new Circle();
             circle.CalculateCircleArea();
