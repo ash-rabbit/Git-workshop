@@ -6,7 +6,19 @@ namespace git_workshop_app
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var square = new Square();
+            square.CalculateSquareArea();
+
+            var rectangle = new Rectangle();
+            rectangle.CalculateRectArea();
+
+            var triangle = new Triangle();
+            triangle.CalculateTriangleArea();
+
+            var circle = new Circle();
+            circle.CalculateCircleArea();
+
+            Console.ReadKey();
         }
     }
 }
